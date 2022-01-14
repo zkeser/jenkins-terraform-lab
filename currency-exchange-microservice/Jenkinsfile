@@ -37,7 +37,10 @@ pipeline {
 			}
 		}	
 
-		post{
+		
+
+	}
+	post{
 			always{
 
 				echo "I am awesome. It worked!"
@@ -51,7 +54,5 @@ pipeline {
 				echo "Oops! Something went wrong. Please try again."
 			}
 		}
-
-	}
 	
 }
