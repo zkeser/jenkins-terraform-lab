@@ -37,6 +37,21 @@ pipeline {
 			}
 		}	
 
+		post{
+			always{
+
+				echo "I am awesome. It worked!"
+			}
+			success{
+				
+				echo "Success!!"
+			}
+			failure{
+
+				echo "Oops! Something went wrong. Please try again."
+			}
+		}
+
 	}
 	
 }
